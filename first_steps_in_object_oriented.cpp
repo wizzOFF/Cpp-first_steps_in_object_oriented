@@ -16,6 +16,8 @@ int main()
 
     string maChaine("Bonjour !");
     //Création d'un objet 'maChaine' de type string et initialisation
+    cout << maChaine << endl;
+    //Affichage du string comme si c'était une chaîne de caractères
 
     return 0;
 }
