@@ -14,7 +14,8 @@ int main()
     vector<char> texte;
     */
 
-    string maChaine; //Création d'un objet 'maChaine' de type string
+    string maChaine("Bonjour !");
+    //Création d'un objet 'maChaine' de type string et initialisation
 
     return 0;
 }
