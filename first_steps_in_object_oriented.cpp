@@ -39,7 +39,10 @@ int main()
         cout << "Les chaines sont differentes." << endl;
     }
 
-    cout << "Longueur de la chaine : " << chaine3.size();
+    cout << "Longueur de la chaine : " << chaine3.size() << endl;
+
+    chaine3.erase();
+    cout << "La chaine contient : " << chaine3 << endl;
 
     return 0;
 }
