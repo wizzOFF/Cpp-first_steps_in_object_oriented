@@ -19,5 +19,8 @@ int main()
     cout << maChaine << endl;
     //Affichage du string comme si c'était une chaîne de caractères
 
+    maChaine = "Bien le bonjour !";
+    cout << maChaine << endl;
+    
     return 0;
 }
