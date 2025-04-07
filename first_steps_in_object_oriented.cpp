@@ -13,7 +13,7 @@ int main()
     /*
     vector<char> texte;
     */
-
+    /*
     string maChaine("Bonjour !");
     //Création d'un objet 'maChaine' de type string et initialisation
     cout << maChaine << endl;
@@ -21,6 +21,14 @@ int main()
 
     maChaine = "Bien le bonjour !";
     cout << maChaine << endl;
-    
+    */
+
+    string chaine1("Bonjour !");
+    string chaine2("Comment allez-vous ?");
+    string chaine3;
+ 
+    chaine3 = chaine1 + chaine2; // 3... 2... 1... Concaténatioooooon
+    cout << chaine3 << endl;
+
     return 0;
 }
