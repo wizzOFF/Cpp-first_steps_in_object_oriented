@@ -43,8 +43,12 @@ int main()
 
     chaine3.erase();
     cout << "La chaine contient : " << chaine3 << endl;
-
+    
+    /*
     cout << chaine3.substr(3) << endl;
+    */
+
+    cout << chaine.substr(3, 4) << endl;
 
     return 0;
 }
